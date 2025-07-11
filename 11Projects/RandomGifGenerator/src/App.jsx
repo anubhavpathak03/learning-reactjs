@@ -27,6 +27,12 @@ function App() {
         {" "}
         <Tag/>
       </div>
+
+      <footer className=' absolute bottom-0 font-black'>
+        Made by <span>
+          <a href="https://github.com/anubhavpathak03/" className='underline' target='blank'>Anubhav Pathak</a>
+        </span>
+      </footer>
     </div>
   )
 }

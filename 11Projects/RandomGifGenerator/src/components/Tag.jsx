@@ -20,7 +20,7 @@ const Tag = () => {
 
   return (
     <div 
-        className='w-1/2 bg-blue-300 border black-border/50 rounded-lg flex flex-col items-center gap-y-9'
+        className='w-1/2 h-[500px] bg-blue-300 border black-border/50 rounded-lg flex flex-col items-center gap-y-9'
     >
         <h1 className='font-bold text-2xl bg-amber-50 w-11/12 text-center mt-10 rounded-2xl'>
             Generate Your Own Random {tag} Gif's
@@ -32,7 +32,7 @@ const Tag = () => {
                     {gif && (
                         <img
                             src={gif}
-                            className='w-[450px] h-[300px] object-contain'
+                            className='w-[450px] h-[200px] object-contain'
                             alt="Random Gif"
                         />
                     )}

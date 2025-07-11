@@ -44,7 +44,7 @@ const Random = () => {
 
   return (
     <div 
-        className='w-1/2 bg-green-300 border black-border/50 rounded-lg flex flex-col items-center gap-y-10'
+        className='w-1/2 h-[500px] bg-green-300 border black-border/50 rounded-lg flex flex-col items-center gap-y-10'
     >
         <h1 className='font-bold text-2xl bg-amber-50 w-11/12 text-center mt-10 rounded-2xl'>
             Your Random Gif's
@@ -59,7 +59,7 @@ const Random = () => {
                     {gif && (
                         <img
                             src={gif}
-                            className='w-[450px] h-[300px] object-contain'
+                            className='w-[450px] h-[250px] object-contain'
                             alt="Random Gif"
                         />
                     )}
