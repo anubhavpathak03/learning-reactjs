@@ -26,5 +26,5 @@
 **eslint.config.js
 **/public
 **vite.config.js
-
+*.env
 
