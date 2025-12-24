@@ -1,13 +1,10 @@
 import { useState, useEffect } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './Components/Card'
 import ThemeBtn from './Components/ThemeBtn'
 import { ThemeProvider } from './contexts/theme'
 
 function App() {
-  // const [count, setCount] = useState(0)
   const [themeMode, setThemeMode] = useState('light')
 
   const darkTheme = () => {
@@ -18,6 +15,7 @@ function App() {
     setThemeMode('light')
   }
 
+  // actual theme kese change hogi
   useEffect(() => {
     document.querySelector('html').classList.remove('dark', "light")
     document.querySelector('html').classList.add(themeMode)

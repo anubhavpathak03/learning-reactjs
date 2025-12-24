@@ -8,7 +8,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <UserContextProvider>
+    <UserContextProvider> {/** ab dekho idhar humne bas ek wrapper bnaya hai isse har component ko sari state ka access mil jayega apne aap */}
       <h1>Learning Context API</h1>
       <Login/>
       <Profile/>
